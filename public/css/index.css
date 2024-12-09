@@ -1,0 +1,125 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4F4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF5733; /* Trendy Orange */
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../../public/img/Grilled-chicken-burger.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: orangered;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: orchid;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #FFF8E1; /* Light Yellow */
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    color: #FF5733;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
